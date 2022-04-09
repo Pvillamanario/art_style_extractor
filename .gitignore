@@ -1,3 +1,8 @@
+##
+.vscode
+.art_pieces_thumbnails/*
+.art_pieces_json/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
