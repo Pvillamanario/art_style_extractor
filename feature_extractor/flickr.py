@@ -14,13 +14,14 @@ from os.path import isfile, join
 
 
 class FLICKR(data.Dataset):
-    raw_folder = 'raw'
 
+    raw_folder = 'raw'
     processed_folder = 'processed'
     training_file = 'training.pt'
     test_file = 'test.pt'
+
     def __init__(self, root, train=True, transform=None, target_transform=None, download=False):
-        print("Loading data from {}".format( root))
+        print("Loading data from {}".format(root))
         self.root = root
         self.transform = transform
         self.target_transform = target_transform
