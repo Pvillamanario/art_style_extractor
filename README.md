@@ -1,2 +1,2 @@
 # art_style_extractor
-Searching through art
+Searching through art styles.
