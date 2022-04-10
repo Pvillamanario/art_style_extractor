@@ -2,6 +2,7 @@
 .vscode
 .art_pieces_thumbnails/*
 .art_pieces_json/*
+.data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
